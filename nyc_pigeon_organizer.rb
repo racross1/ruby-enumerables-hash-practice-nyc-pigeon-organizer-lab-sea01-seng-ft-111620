@@ -1,7 +1,9 @@
+require 'pry'
 def nyc_pigeon_organizer(data)
   row_index = 0 
   name_list = []
   while row_index < data.to_a.count do
+    binding.pry
     element_index = 0 
     while element_index < data.to_a[row_index].to_a.count do 
       name_list << data.to_a[row_index].to_a[element_index]
