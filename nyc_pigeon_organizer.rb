@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
-  data
+  pigion_names = data.to_a
   data.map do |
   # write your code here!
 end
