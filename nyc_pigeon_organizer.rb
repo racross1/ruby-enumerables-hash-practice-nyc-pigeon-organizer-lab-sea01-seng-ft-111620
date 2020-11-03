@@ -9,16 +9,11 @@ def nyc_pigeon_organizer(data)
     end 
     row_index += 1 
   end
+end 
  
  
  
  
-  pigeon_list = {}
-  data.to_a[]
-  data.map do |item|
-    item
-  # write your code here!
-end
 
 #want to iterate over HoHoA and pull out each array item which is a key
 #then match up each name key to HoH
