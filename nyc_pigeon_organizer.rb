@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
     end 
     row_index += 1 
   end
+  p name_list
 end 
  
  
