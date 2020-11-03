@@ -1,4 +1,10 @@
 def nyc_pigeon_organizer(data)
+  row_index = 0 
+  while row_index < data.to_a.count do
+ 
+ 
+ 
+ 
   pigeon_list = {}
   data.to_a[]
   data.map do |item|
