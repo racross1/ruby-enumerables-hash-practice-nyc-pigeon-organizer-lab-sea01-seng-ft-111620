@@ -11,7 +11,6 @@ def nyc_pigeon_organizer(data)
   pigeon_list
   #pigeon_list.each do |key, value|
    # if data[:color][]
-binding.pry
 end 
 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
