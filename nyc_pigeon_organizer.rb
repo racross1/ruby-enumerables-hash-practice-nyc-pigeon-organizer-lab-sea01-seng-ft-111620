@@ -1,6 +1,7 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
+  binding.pry
   pigeon_list = pigeon_name_hash(data)
   binding.pry
 end 
