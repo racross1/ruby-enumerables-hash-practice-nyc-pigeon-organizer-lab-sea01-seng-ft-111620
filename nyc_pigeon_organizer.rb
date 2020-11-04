@@ -12,7 +12,7 @@ def pigeon_name_hash(data)
   array_of_keys = list_of_names(data)
   pigeon_list = {}
   i = 0 
-  while i < array_of_keys do
+  while i < array_of_keys.count do
     pigeon_list = pigeon_list.store(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
   end 
   pigeon_list
