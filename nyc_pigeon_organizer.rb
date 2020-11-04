@@ -4,13 +4,19 @@ def nyc_pigeon_organizer(data)
   array_of_keys = list_of_names(data)
   pigeon_data = {}
   i = 0 
+  data[:color].each do |
   while i < array_of_keys do 
-    data[:color]
+    if data[:color].includes?(array_of_keys[i])
+      pigeon_data << array_of_keys[i] => 
   
   
 end 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
 
+def names_with_data_values(data)
+  hash = {}
+  data[:color].each do |key, value|
+    
 
 def list_of_names(data)
   array_of_names = []
