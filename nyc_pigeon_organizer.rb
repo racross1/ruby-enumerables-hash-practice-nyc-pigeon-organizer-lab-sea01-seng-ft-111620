@@ -7,8 +7,9 @@ def nyc_pigeon_organizer(data)
   hash = {}
   array_of_name_keys.map do |name|
     hash = hash.merge(name => {:color => [], :gender => [], :lives => []})
-  binding.pry
 end
+p hash
+binding.pry
 end 
 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
