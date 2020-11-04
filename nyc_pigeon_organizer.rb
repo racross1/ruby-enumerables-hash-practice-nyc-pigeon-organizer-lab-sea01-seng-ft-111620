@@ -5,10 +5,10 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   i = 0 
   while i < array_of_keys do
-    pigeon_list.store(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
+    pigeon_list = pigeon_list.store(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
   end 
-  p pigeon_list
-  
+  pigeon_list 
+  binding.pry
   #pigeon_list.each do |key, value|
    # if data[:color][]
 
