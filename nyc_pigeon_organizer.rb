@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
   array_of_categries = array_of_colors + array_of_genders + array_of_lives
   row_index = 0 
   while row_index < array_of_categries.count do 
+    element_index = 0
     
   
   
