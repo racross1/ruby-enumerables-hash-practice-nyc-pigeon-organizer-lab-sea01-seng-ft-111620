@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
     end 
   end 
   p hash_of_keys
+  binding.pry
 end 
  
  
