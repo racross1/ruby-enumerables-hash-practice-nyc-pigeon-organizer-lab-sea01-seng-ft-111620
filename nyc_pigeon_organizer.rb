@@ -3,7 +3,6 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   binding.pry
   pigeon_list = pigeon_name_hash(data)
-  binding.pry
 end 
 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
@@ -16,6 +15,7 @@ def pigeon_name_hash(data)
     pigeon_list = pigeon_list.store(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
   end 
   pigeon_list
+  binding.pry
 end 
 
 def list_of_names(data)
