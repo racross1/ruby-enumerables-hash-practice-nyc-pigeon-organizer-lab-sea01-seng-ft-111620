@@ -12,10 +12,6 @@ def nyc_pigeon_organizer(data)
 end 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
 
-def names_with_data_values(data)
-  hash = {}
-  data[:color].each do |key, value|
-    
 
 def list_of_names(data)
   array_of_names = []
