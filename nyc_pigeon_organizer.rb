@@ -1,21 +1,20 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
+  pigeon_list = pigeon_name_hash(data)
+end 
+
+### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
+
+def pigeon_name_hash(data)
   array_of_keys = list_of_names(data)
   pigeon_list = {}
   i = 0 
   while i < array_of_keys do
     pigeon_list = pigeon_list.store(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
   end 
-  pigeon_list.map
-  #pigeon_list.each do |key, value|
-   # if data[:color][]
-
+  pigeon_list
 end 
-
-### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
-
-def pigeon_name_hash(data)
 
 def list_of_names(data)
   array_of_names = []
