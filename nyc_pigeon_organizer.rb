@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   array_of_lives = data[:lives].to_a
   array_of_categories = array_of_colors + array_of_genders + array_of_lives
   row_index = 0 
-  array_of_gendersames = []
+  array_of_names = []
   while row_index < array_of_categories.count do 
     element_index = 0
     while element_index < array_of_categories[row_index].count do 
