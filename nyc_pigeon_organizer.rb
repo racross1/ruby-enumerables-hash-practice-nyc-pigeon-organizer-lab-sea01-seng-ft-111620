@@ -4,9 +4,15 @@ def nyc_pigeon_organizer(data)
   array_of_names = []
   data[:color].each do |key, value|
     array_of_names << value 
-    binding.pry
-  data[gender].ap
-  end 
+  data[:gender].each do |key, value| 
+    array_of_names << value 
+  data[:lives].each do |key, value| 
+    array_of_names << value
+  end
+end 
+end 
+p array_of_names
+binding.pry
 end 
       
     
