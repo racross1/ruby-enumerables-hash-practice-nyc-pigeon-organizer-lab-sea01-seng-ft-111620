@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
   array_of_keys = list_of_names(data)
   pigeon_list = {}
   i = 0 
+  binding.pry
   while i < array_of_keys do
     pigeon_list << {array_of_keys[i]=> {:color => [], :gender => [], :lives => []}} 
   end 
