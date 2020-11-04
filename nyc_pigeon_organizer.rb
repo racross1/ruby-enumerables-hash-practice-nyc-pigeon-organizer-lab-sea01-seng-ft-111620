@@ -15,7 +15,20 @@ p array_of_names.flatten.uniq
 binding.pry
 end 
       
-    
+def list_of_names(data)
+  array_of_names = []
+  data[:color].each do |key, value|
+    array_of_names << value 
+  data[:gender].each do |key, value| 
+    array_of_names << value 
+  data[:lives].each do |key, value| 
+    array_of_names << value
+  end
+end 
+end 
+array_of_names.flatten.uniq
+
+end 
   
   
  
