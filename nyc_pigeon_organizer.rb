@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
   list_of_keys = data.keys
   list_of_values = data.values
   array_of_name_keys= list_of_names(data)
+  
   binding.pry
 end 
 
