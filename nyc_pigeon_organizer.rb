@@ -6,9 +6,8 @@ def nyc_pigeon_organizer(data)
   i = 0 
   while i < array_of_keys do
     pigeon_list = pigeon_list.store(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
-  binding.pry
   end 
-  pigeon_list 
+  pigeon_list.map
   #pigeon_list.each do |key, value|
    # if data[:color][]
 
@@ -16,6 +15,7 @@ end
 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
 
+def pigeon_name_hash(data)
 
 def list_of_names(data)
   array_of_names = []
