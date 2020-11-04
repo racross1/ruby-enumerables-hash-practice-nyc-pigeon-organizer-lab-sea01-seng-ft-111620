@@ -1,8 +1,7 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  binding.pry
-  pigeon_list = pigeon_name_hash(data)
+  p "yay"
 end 
 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
