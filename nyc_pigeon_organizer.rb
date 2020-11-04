@@ -1,8 +1,10 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
+  array_of_names = []
   data[:color].map do |key, value|
-    
+    array_of_names << value 
+    binding.pry
   
 end 
       
