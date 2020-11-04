@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data[:color].map do |key, value|
     array_of_names << value 
     binding.pry
-  
+  end 
 end 
       
     
