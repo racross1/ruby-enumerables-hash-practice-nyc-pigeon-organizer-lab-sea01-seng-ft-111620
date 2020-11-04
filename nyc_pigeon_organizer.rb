@@ -2,6 +2,7 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   list_of_keys = data.keys
+  list_of_values = data.values
   binding.pry
 end 
 
