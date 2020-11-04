@@ -1,11 +1,11 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  hash_of_keys = []
+  array_of_keys = []
   array_of_colors = data[:color].to_a
   array_of_genders = data[:gender].to_a
   array_of_lives = data[:lives].to_a
-  
+  array_of_keys = array_of_colors 
   
   data.map do |label|
     data[label].map do |category|
