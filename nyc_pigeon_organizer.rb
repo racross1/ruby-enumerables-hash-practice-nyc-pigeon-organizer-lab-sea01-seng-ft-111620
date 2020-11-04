@@ -2,8 +2,11 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   array_of_keys = list_of_names(data)
-  binding.pry
-  array_of_keys
+  pigeon_data = {}
+  i = 0 
+  while i < array_of_keys do 
+    data[:color]
+  
   
 end 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
