@@ -1,19 +1,5 @@
 require 'pry'
 
-def nyc_pigeon_organizer(data)
-  array_of_keys = list_of_names(data)
-  pigeon_list = {}
-  i = 0 
-  while i < array_of_keys do
-    pigeon_list.merge(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
-  end 
-    pigeon_list
-end 
-
-
-### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
-
-
 def list_of_names(data)
   array_of_names = []
   data[:color].each do |key, value|
@@ -28,7 +14,23 @@ end
 array_of_names.flatten.uniq
 end 
 
-binding.pry
+def nyc_pigeon_organizer(data)
+  array_of_keys = list_of_names(data)
+  pigeon_list = {}
+  i = 0 
+  while i < array_of_keys do
+    pigeon_list.merge(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
+  end 
+    pigeon_list
+  binding.pry
+end 
+
+
+### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
+
+
+
+
 
   
  
