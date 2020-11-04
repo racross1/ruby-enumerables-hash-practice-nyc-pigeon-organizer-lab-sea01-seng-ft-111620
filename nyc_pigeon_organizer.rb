@@ -13,7 +13,7 @@ def pigeon_name_hash(data)
   while i < array_of_keys.length do
     pigeon_list = pigeon_list.store(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
   end 
- binding.pry
+  binding.pry
   pigeon_list
 end 
 
