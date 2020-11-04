@@ -2,18 +2,13 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   array_of_keys = list_of_names(data)
-  pigeon_data = {}
+  pigeon_list = {}
   i = 0 
   while i < array_of_keys do
-    data[:color].each do |key, value|
-      if data[:color][key].include?(value)
-      pigeon_data << array_of_keys[i] => :color => 
-    
-    
-  while i < array_of_keys do 
-    
-  
-  
+    pigeon_list << array_of_keys[i] => {:color => [], :gender => [], :lives => []} 
+  end 
+    pigeon_list
+    binding.pry
 end 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
 
