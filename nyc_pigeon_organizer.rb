@@ -8,7 +8,6 @@ def nyc_pigeon_organizer(data)
     pigeon_list = pigeon_list.store(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
   binding.pry
   end 
-  binding.pry
   pigeon_list 
   #pigeon_list.each do |key, value|
    # if data[:color][]
