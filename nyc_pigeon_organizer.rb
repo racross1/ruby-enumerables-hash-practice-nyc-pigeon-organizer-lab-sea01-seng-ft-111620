@@ -7,9 +7,8 @@ def nyc_pigeon_organizer(data)
   while i < array_of_keys do
     pigeon_list.merge(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
   end 
-    binding.pry
     pigeon_list
-    
+    binding.pry
 end 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
 
