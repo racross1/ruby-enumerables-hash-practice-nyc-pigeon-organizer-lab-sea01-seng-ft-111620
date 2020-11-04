@@ -1,23 +1,9 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  array_of_categories = []
-  array_of_colors = data[:color].to_a
-  array_of_genders = data[:gender].to_a
-  array_of_lives = data[:lives].to_a
-  array_of_categories = array_of_colors + array_of_genders + array_of_lives
-  binding.pry
-  row_index = 0 
-  array_of_names = []
-  while row_index < array_of_categories.count do 
-    element_index = 0
-    while element_index < array_of_categories[row_index].count do 
-      array_of_names << array_of_categories[row_index][element_index]
-      element index += 1 
-    end 
-    row_index +=1 
-  end 
-  p array_of_names.uniq
+  data[:color].map do |key, value|
+    
+  
 end 
       
     
