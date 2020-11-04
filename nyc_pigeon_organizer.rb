@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   hash_of_keys = []
   data.each do |label|
     data[label].map do |category|
-      binding.pry
+  binding.pry
 
       hash_of_keys << data[label][category]
     end 
