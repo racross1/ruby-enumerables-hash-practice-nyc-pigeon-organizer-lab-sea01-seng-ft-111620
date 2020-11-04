@@ -1,7 +1,9 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   data.map do |item|
+    data[item]
   data[:color].to_a
+  data[:gender][:male]
 end 
  
  
