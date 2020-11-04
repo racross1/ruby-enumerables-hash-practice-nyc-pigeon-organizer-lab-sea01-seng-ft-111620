@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
   end
 end 
 end 
-p array_of_names.flatten
+p array_of_names.flatten.uniq
 binding.pry
 end 
       
