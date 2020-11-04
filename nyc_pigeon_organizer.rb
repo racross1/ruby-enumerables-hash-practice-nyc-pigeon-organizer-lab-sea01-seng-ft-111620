@@ -5,10 +5,10 @@ def nyc_pigeon_organizer(data)
   data.each do |label|
     data[label].map do |category|
       hash_of_keys << data[label][category]
+      binding.pry
     end 
   end 
   p hash_of_keys
-  binding.pry
 end 
  
  
