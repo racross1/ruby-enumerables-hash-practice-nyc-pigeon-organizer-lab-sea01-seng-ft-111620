@@ -12,6 +12,11 @@ def nyc_pigeon_organizer(data)
     element_index = 0
     while element_index < array_of_categories[row_index].count do 
       array_of_names << array_of_categories[row_index][element_index]
+      element index += 1 
+    end 
+    row_index +=1 
+  end 
+  ar
       
     
   
