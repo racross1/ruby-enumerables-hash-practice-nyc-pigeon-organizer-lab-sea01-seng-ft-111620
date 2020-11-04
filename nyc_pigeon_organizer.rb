@@ -9,7 +9,9 @@ def nyc_pigeon_organizer(data)
   row_index = 0 
   while row_index < array_of_categries.count do 
     element_index = 0
-    while element_index < array_of_categries.count
+    while element_index < array_of_categries[row_index].count do 
+      
+    
   
   
   data.map do |label|
