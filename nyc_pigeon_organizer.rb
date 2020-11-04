@@ -16,18 +16,12 @@ def nyc_pigeon_organizer(data)
     end 
     row_index +=1 
   end 
-  ar
+  p array_of_names.uniq
+end 
       
     
   
   
-  data.map do |label|
-    data[label].map do |category|
-      hash_of_keys << data[label][category]
-    end 
-  end 
-  p hash_of_keys
-end 
  
 #break out separate method to get array of keys  
  
