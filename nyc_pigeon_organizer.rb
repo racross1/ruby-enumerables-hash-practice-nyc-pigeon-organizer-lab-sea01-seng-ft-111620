@@ -1,20 +1,14 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  array_of_names = []
-  data[:color].each do |key, value|
-    array_of_names << value 
-  data[:gender].each do |key, value| 
-    array_of_names << value 
-  data[:lives].each do |key, value| 
-    array_of_names << value
-  end
+  list_of_names(data)
+  binding.pry
+  array_of_keys
+  
 end 
-end 
-p array_of_names.flatten.uniq
-binding.pry
-end 
-      
+### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
+
+
 def list_of_names(data)
   array_of_names = []
   data[:color].each do |key, value|
@@ -26,8 +20,8 @@ def list_of_names(data)
   end
 end 
 end 
-array_of_names.flatten.uniq
-
+array_of_keys = array_of_names.flatten.uniq
+array_of_keys
 end 
   
   
