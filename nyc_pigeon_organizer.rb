@@ -2,9 +2,10 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   array_of_names = []
-  data[:color].map do |key, value|
+  data[:color].each do |key, value|
     array_of_names << value 
     binding.pry
+  data[gender].ap
   end 
 end 
       
