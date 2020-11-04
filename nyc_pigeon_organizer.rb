@@ -1,15 +1,17 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  array_of_ categories = []
+  array_of_categories = []
   array_of_colors = data[:color].to_a
   array_of_genders = data[:gender].to_a
   array_of_lives = data[:lives].to_a
-  array_of_categries = array_of_colors + array_of_genders + array_of_lives
+  array_of_categories = array_of_colors + array_of_genders + array_of_lives
   row_index = 0 
-  while row_index < array_of_categries.count do 
+  array_of_gendersames = []
+  while row_index < array_of_categories.count do 
     element_index = 0
-    while element_index < array_of_categries[row_index].count do 
+    while element_index < array_of_categories[row_index].count do 
+      array_of_names << array_of_categories[row_index][element_index]
       
     
   
@@ -22,7 +24,9 @@ def nyc_pigeon_organizer(data)
   p hash_of_keys
 end 
  
+#break out separate method to get array of keys  
  
+#def nyc_pigeon_name_array(data)
  
  
 
