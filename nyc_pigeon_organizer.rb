@@ -3,7 +3,6 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   hash_of_keys = []
   data.map do |label|
-    binding.pry
     data[label].map do |category|
       hash_of_keys << data[label][category]
     end 
