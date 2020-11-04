@@ -1,7 +1,7 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  p "yay"
+  list_of_keys = data.keys
 end 
 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
