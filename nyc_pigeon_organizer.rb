@@ -1,7 +1,7 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-  list_of_names(data)
+  array_of_keys = list_of_names(data)
   binding.pry
   array_of_keys
   
@@ -20,8 +20,7 @@ def list_of_names(data)
   end
 end 
 end 
-array_of_keys = array_of_names.flatten.uniq
-array_of_keys
+array_of_names.flatten.uniq
 end 
   
   
