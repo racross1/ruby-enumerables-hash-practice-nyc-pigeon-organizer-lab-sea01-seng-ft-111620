@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   i = 0 
   while i < array_of_keys do
-    pigeon_list << array_of_keys[i]=> {:color => [], :gender => [], :lives => []} 
+    pigeon_list << array_of_keys[i]=> {} 
   end 
     pigeon_list
 end 
