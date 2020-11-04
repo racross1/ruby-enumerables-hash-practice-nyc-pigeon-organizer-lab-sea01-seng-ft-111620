@@ -6,7 +6,9 @@ def nyc_pigeon_organizer(data)
   array_of_genders = data[:gender].to_a
   array_of_lives = data[:lives].to_a
   array_of_categries = array_of_colors + array_of_genders + array_of_lives
-  array_of_categories.each do 
+  row_index = 0 
+  
+  
   
   data.map do |label|
     data[label].map do |category|
