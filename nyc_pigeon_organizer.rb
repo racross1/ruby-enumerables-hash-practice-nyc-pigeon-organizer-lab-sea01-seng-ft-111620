@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   array_of_name_keys= list_of_names(data)
   hash = {}
   array_of_name_keys.map do |name|
-    hash = hash.merge(name: {:color => [], :gender => [], :lives => []})
+    hash = hash.merge(name=> {:color => [], :gender => [], :lives => []})
   binding.pry
 end
 end 
