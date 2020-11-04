@@ -7,8 +7,8 @@ def nyc_pigeon_organizer(data)
   while i < array_of_keys do
     pigeon_list << {array_of_keys[i]=> {:color => [], :gender => [], :lives => []}} 
   end 
-    pigeon_list
     binding.pry
+    pigeon_list
 end 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
 
