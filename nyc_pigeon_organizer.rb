@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
   i = 0 
   while i < array_of_keys do
     data[:color].each do |key, value|
+      if data[:color][key].include?(value)
       if data[:color].includes?(array_of_keys[i])
       pigeon_data << array_of_keys[i] => 
     
