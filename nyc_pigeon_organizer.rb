@@ -5,8 +5,8 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   i = 0 
   while i < array_of_keys do
-    binding.pry
     pigeon_list.merge(array_of_keys[i]=> {:color => [], :gender => [], :lives => []})
+    binding.pry
   end 
   pigeon_list
   #pigeon_list.each do |key, value|
