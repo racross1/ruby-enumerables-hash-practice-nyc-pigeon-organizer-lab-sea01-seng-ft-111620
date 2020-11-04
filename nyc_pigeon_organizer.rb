@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
     hash = hash.merge(name => {:color => [], :gender => [], :lives => []})
     end
   hash.map do |key, value|
-    if data[:color][]
+    if
 end 
 
 ### SAME PROCESS AS WITH NAME LIST BUT USE INCLUDE? AND KEY
